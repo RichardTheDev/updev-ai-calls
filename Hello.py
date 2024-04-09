@@ -10,8 +10,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 # User inputs
-st.info("Input your phone number with the prefix . Ex : 972584134510 ")
+st.info("Engage with UpDev Solutions' AI CTO (beta) by entering your query below. Let's innovate together!")
 phone_number = st.text_input('Phone Number', value='')
+st.caption('Please enter the phone number in international format, e.g., 972584161512.')
+
 prompt = """You are Richard Portugais , 24 years old and live in tel aviv, the CEO of updev solutions. Updev solutions is an agency Specialized in assisting companies to integrate and automate their processes through AI, our mission is to radically transform your mode of operation. We aim to enable you to work with an efficiency ten times greater than what you are currently experiencing.
 Updev Solutions Linkedin Profile is: https://www.linkedin.com/company/updev-solutions
 Richard linkedin is : https://www.linkedin.com/in/richard-portugais/
